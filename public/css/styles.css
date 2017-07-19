@@ -1,0 +1,109 @@
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+html, body, material-app, md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 500px
+}
+.barra{
+  background-color:#212121;
+  color: #fff;
+}
+#menu {
+   margin-top:30px;
+  margin-left:30px;
+  float: left;
+  width: 15%;
+}
+#contenido {
+  float: left;
+  width: 80%;
+}
+#contenido #principal {
+  margin-top:30px;
+  margin-left:30px;
+  float: left;
+  width: 50%;
+}
+#contenido #secundario {
+  margin-top:30px;
+  bottom: 100px;
+  float: right;
+  width: 35%;
+    margin-bottom:30px;
+
+}
+.imagen{
+  background-color: #fff ;
+}
+.ejemplo1{
+  background-color: #8e24aa ;  
+  top: 300px;
+ width: 100%;
+ height: 100%;
+}
+
+.marco{
+position: absolute;
+ width: 100%;
+ height: 10%;
+}
+
+.abajo{
+position: absolute;
+margin-top: 150px;
+}
+
+.ejemplo2{
+  margin-top:30px;
+  top: 300px;
+ width: 40%;
+}
+
+.card1 {
+  pad: 40px;
+  width: 580px ;
+    background-color:#FE3F4C;
+
+}
+.card2 {
+  pad: 40px;
+  width: 300px ;
+  background-color:#5685FC;
+
+}
+
+.card-xbox {
+  pad: 40px;
+  width: 300px ;
+  background-color:#5EFC56;
+
+}
+.login {
+    margin-top:-1px;
+    float: right;
+}
+.modales {
+    margin-top:-1px;
+    float: right;
+    color: #000;
+
+}
+
+.header-nintendo{
+
+  background-image: url("/../assets/images/Logo_Nintendo_Switch.png");
+  background-size: cover;
+}
+
+
+.header-play{
+
+  background-image: url('/../assets/images/play.png');
+  background-size: cover;
+}
+
+.header-xbox{
+
+  background-image: url('/../assets/images/xboxone.png');
+  background-size: cover;
+}
