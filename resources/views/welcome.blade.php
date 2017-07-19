@@ -29,8 +29,7 @@
           <label for="first_name">Usuario</label>
         </li>
          <li>
-         <button class="btn waves-effect waves-light cyan col s2" type="submit">Guardar
-          </button>
+         <button class="btn waves-effect waves-light cyan col s2" type="submit">Guardar</button>
         </li>
     </form>
   </nav>
